@@ -1,0 +1,180 @@
+ ----jGRASP exec: java -ea P2solution
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 1
+current forward sequence: 5'-ATGCTC-3'
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 3
+enter sequence length: 10
+new forward sequence:   5'-ATACGATGGG-3'
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 4
+current sequence:   5'-ATACGATGGG-3'
+complement:         3'-TATGCTACCC-5'
+reverse complement: 5'-CCCATCGTAT-3'
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 2
+enter forward sequence: 5'-ATTACCGAT-3'
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 5
+current forward sequence: 5'-ATTACCGAT-3'
+enter another sequence:   5'-ATTcgagta-3'
+number of mutations: 5
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 1
+current forward sequence: 5'-ATTACCGAT-3'
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 6
+current sequence: 5'-ATTACCGAT-3'
+enter recognition site and cut position: 5'-AT-3' 1
+cut sequence: 5'-A TTACCGA T-3'
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 6
+current sequence: 5'-ATTACCGAT-3'
+enter recognition site and cut position: TAC 3
+invalid recognition site
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 6
+current sequence: 5'-ATTACCGAT-3'
+enter recognition site and cut position: 5'-TAC-3' 2
+recognition site is not palindromic
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 6
+current sequence: 5'-ATTACCGAT-3'
+enter recognition site and cut position: 5'-ATTA-3' 3
+recognition site is not palindromic
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 6
+current sequence: 5'-ATTACCGAT-3'
+enter recognition site and cut position: 5'-AT-3' 2
+cut sequence: 5'-AT TACCGAT -3'
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 2
+enter forward sequence: 5'-abcd-3'
+input is not a valid forward DNA sequence
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 2
+enter forward sequence: 5'-ATTACGGAT-3'
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 5
+current forward sequence: 5'-ATTACGGAT-3'
+enter another sequence:   5'-attabc
+invalid sequence
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 4
+current sequence:   5'-ATTACGGAT-3'
+complement:         3'-TAATGCCTA-5'
+reverse complement: 5'-ATCCGTAAT-3'
+
+0) quit
+1) display DNA
+2) enter DNA
+3) generate DNA
+4) complements
+5) mutation
+6) restriction enzymes
+enter choice by # -> 0
